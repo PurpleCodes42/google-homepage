@@ -1,0 +1,27 @@
+.center {
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 40%;
+}
+
+.search {
+       margin-left: auto;
+       margin-right: auto;
+       width: 20%;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+
+}
+
+li  {
+    display: inline;
+    width: 60px;
+}
