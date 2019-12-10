@@ -1,27 +1,51 @@
 .center {
-       display: block;
-       margin-left: auto;
-       margin-right: auto;
-       width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 40%;
 }
 
 .search {
-       margin-left: auto;
-       margin-right: auto;
-       width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    width: 30%;
+}
+
+#searchbar {
+    margin-top: 0;
+}
+
+#searchbar:hover {
+    box-shadow: inset;
 }
 
 ul {
     position: fixed;
-    top: 0;
+    top: 20px;
     list-style-type: none;
     margin: 0;
     padding: 0;
     position: fixed;
+    font-size: small;
 
 }
 
 li  {
     display: inline;
     width: 60px;
+}
+
+li:hover{
+    text-decoration: underline;
+}
+
+.leftnav {
+    float:left;
+}
+
+.rightnav {
+    float: right;
+    margin-right: 22%;
 }
