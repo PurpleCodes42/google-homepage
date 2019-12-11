@@ -26,14 +26,29 @@
 }
 
 ul {
-    position: fixed;
-    top: 20px;
+    font-size: small;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    position: fixed;
-    font-size: small;
+}
 
+.footer {
+    padding: 20px;
+    width: 100%;
+    background-color: rgb(236, 231, 231);
+    position: fixed;
+    bottom: 0;
+   }
+
+.footer ul {
+    bottom: 10px;
+    background-color: rgb(236, 231, 231);
+    position: fixed;
+}
+
+.leftnav ul, .rightnav ul {
+    top: 20px;
+    position: fixed;
 }
 
 li  {
@@ -85,3 +100,8 @@ img {
     width: 50%;
     height: auto;
 }
+
+
+
+
+
